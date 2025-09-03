@@ -40,6 +40,13 @@ h1 {
     background-clip: text;
 }
 
+a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
 /* File input styling */
 #fileInput {
     display: none;
@@ -53,7 +60,7 @@ h1 {
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 60px 20px;
+    padding: 30px 10px;
     border: 3px dashed #cbd5e0;
     border-radius: 15px;
     background: #f7fafc;
@@ -82,7 +89,7 @@ h1 {
 #previewImg {
     max-width: 100%;
     max-height: 250px;
-    margin-top: 15px;
+    margin-top: 10px;
     border-radius: 10px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
     transition: all 0.3s ease;
@@ -128,7 +135,7 @@ button:active {
 /* Textarea */
 #base64Output {
     width: 100%;
-    min-height: 200px;
+    min-height: 100px;
     padding: 20px;
     border: 2px solid #e2e8f0;
     border-radius: 15px;
@@ -222,4 +229,14 @@ button:active {
 
 #base64Output::-webkit-scrollbar-thumb:hover {
     background: #555;
+}
+
+#footer {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #718096;
+}
+
+.bold {
+    font-weight: 700;
 }
